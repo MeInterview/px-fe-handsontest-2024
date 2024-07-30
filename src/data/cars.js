@@ -451,13 +451,7 @@ export const cars = [
       "highway_mpg": 26
     },
     "transmission": "10-speed automatic",
-    "features": [
-      "Bluetooth",
-      "Backup Camera",
-      "Leather Seats",
-      "Sunroof",
-      "Adaptive Cruise Control"
-    ]
+    "features": undefined
   },
   {
     "make": "Infiniti",
@@ -583,7 +577,7 @@ export const cars = [
     "make": "Ferrari",
     "model": "Roma",
     "year": 2024,
-    "price": 220000,
+    "price": null,
     "engine_type": "3.9L V8",
     "horsepower": 612,
     "fuel_efficiency": {
