@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import './App.scss';
+import { Navbar, Container } from "react-bootstrap";
+const App = () => (
+  <>
+    <Navbar className="bg-body-tertiary">
+      <Container>
+        <Navbar.Brand href="#home">
+          <img alt="" src="./paytronix-logo-default.png" width="auto" height="50px" className="d-inline-block align-top"/>
+          {' '}
+          <div className = "px-nav-header-text">FE Hands On Test</div>
+        </Navbar.Brand>
+        
+      </Container>
+    </Navbar>
+    <Container fluid>
+      {/* Replace the following div with your code/containers */}
+      <div className = "px-add-components-here-area">
+          Add your components here
+      </div>
+    </Container>
+  </>
+);
 
 export default App;

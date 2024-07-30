@@ -28,11 +28,19 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.px-nav-header-text {
+  display: inline-flex;
+  align-items: center;
+  height: 50px;
+  margin-left: 20px;
+}
+
+.px-add-components-here-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    font-style: italic;
+    font-size: 20px;
+    color: cadetblue;
 }
