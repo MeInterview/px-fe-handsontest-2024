@@ -13,7 +13,7 @@ const App = () => (
       </Container>
     </Navbar>
     <Container fluid>
-      {/* Replace the following div with your code/containers */}
+      {/* Replace the following div with your code/container/component */}
       <div className = "px-add-components-here-area">
           Add your components here
       </div>
